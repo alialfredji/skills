@@ -7,28 +7,18 @@ A collection of reusable skills for AI coding agents. Each skill is a self-conta
 | Skill | Description |
 |:------|:------------|
 | [setup-ai-context](./setup-ai-context/) | Set up cross-tool AI context files for any project (new or legacy). Generates AGENTS.md, CLAUDE.md, Copilot instructions, path-scoped rules, tribal knowledge, glossary, and decision records. |
+| [research](./research/) | Research-first workflow that gathers current, verified information before answering or acting. Prevents stale training-data answers by enforcing: decompose → research → synthesize → clarify → plan. |
+| [code-discipline](./code-discipline/) | Behavioral guardrails for disciplined coding. Four principles: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution. |
 
 ## Installation
 
-### Per-project (recommended for team use)
-
-Copy a skill directory into your project's `.claude/skills/`:
-
 ```bash
-cp -r setup-ai-context /path/to/your/project/.claude/skills/
-```
-
-### User-level (available in all your projects)
-
-Symlink into your global skills directory:
-
-```bash
-ln -s /path/to/skills/setup-ai-context ~/.claude/skills/setup-ai-context
+npx skills add https://github.com/alialfredji/skills
 ```
 
 ### Usage
 
-Once installed, invoke the skill by name in Claude Code:
+Once installed, invoke any skill by name in Claude Code:
 
 ```
 /setup-ai-context          # Full setup from scratch
