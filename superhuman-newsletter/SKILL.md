@@ -24,7 +24,7 @@ Fetch recent public Superhuman AI newsletter posts, synthesize the requested dig
    Run from this skill directory:
 
    ```bash
-   python3 fetch-newsletter.py --source superhuman --count 7
+   python3 <skill-dir>/scripts/fetch-newsletter.py --source superhuman --count 7
    ```
 
    Adjust `--count` from the parsed request. The script writes progress to stderr and markdown content to stdout.
