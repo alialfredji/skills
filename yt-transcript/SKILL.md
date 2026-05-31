@@ -32,7 +32,7 @@ Options:
 The script path is relative to this skill file. Use the absolute path:
 
 ```bash
-python3 /Users/alialfredji/Obsidian/Laibyte/_claude-skills/yt-transcript/scripts/get-transcript.py "https://www.youtube.com/watch?v=VIDEO_ID"
+python3 <skill-dir>/scripts/get-transcript.py "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
 ## What the Script Does
