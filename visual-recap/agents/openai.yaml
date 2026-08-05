@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Visual Recap"
+  short_description: "Review completed changes in a local viewer"
+  default_prompt: "Use $visual-recap to create a local interactive recap of this branch."
