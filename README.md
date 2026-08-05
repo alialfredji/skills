@@ -10,6 +10,7 @@ A collection of reusable skills for AI coding agents. Each skill is a self-conta
 | [research](./research/) | Research-first workflow that gathers current, verified information before answering or acting. Prevents stale training-data answers by enforcing: decompose → research → synthesize → clarify → plan. |
 | [code-discipline](./code-discipline/) | Behavioral guardrails for disciplined coding. Four principles: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution. |
 | [visual-plan](./visual-plan/) | Create repository-owned visual implementation plans and review them through a loopback-only local Plan viewer. |
+| [visual-recap](./visual-recap/) | Turn implemented changes into repository-owned visual recaps reviewed through the loopback-only local Plan viewer. |
 
 ## Installation
 

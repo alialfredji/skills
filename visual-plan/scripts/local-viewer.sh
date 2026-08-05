@@ -91,7 +91,12 @@ case "$command_name" in
       echo "cli requires agent-native arguments." >&2
       exit 2
     fi
-    exec "${pnpm_runner[@]}" --dir "$viewer_dir" exec agent-native "$@"
+    cli_bin="$viewer_dir/node_modules/.bin/agent-native"
+    if [[ ! -x "$cli_bin" ]]; then
+      echo "Local Plan CLI is unavailable. Run: bash $0 bootstrap" >&2
+      exit 1
+    fi
+    exec "$cli_bin" "$@"
     ;;
   url)
     slug="${2:-}"
