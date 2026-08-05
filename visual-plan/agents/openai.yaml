@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Visual Plan"
+  short_description: "Create visual plans in a local viewer"
+  default_prompt: "Use $visual-plan to create a local interactive plan for this task before implementation."

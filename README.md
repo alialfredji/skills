@@ -9,6 +9,7 @@ A collection of reusable skills for AI coding agents. Each skill is a self-conta
 | [setup-ai-context](./setup-ai-context/) | Set up cross-tool AI context files for any project (new or legacy). Generates AGENTS.md, CLAUDE.md, Copilot instructions, path-scoped rules, tribal knowledge, glossary, and decision records. |
 | [research](./research/) | Research-first workflow that gathers current, verified information before answering or acting. Prevents stale training-data answers by enforcing: decompose → research → synthesize → clarify → plan. |
 | [code-discipline](./code-discipline/) | Behavioral guardrails for disciplined coding. Four principles: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution. |
+| [visual-plan](./visual-plan/) | Create repository-owned visual implementation plans and review them through a loopback-only local Plan viewer. |
 
 ## Installation
 
